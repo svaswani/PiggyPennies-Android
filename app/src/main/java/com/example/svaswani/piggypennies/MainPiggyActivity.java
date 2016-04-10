@@ -29,7 +29,7 @@ public class MainPiggyActivity extends AppCompatActivity {
         WebSettings webSettings = piggyPennyWebView.getSettings();
         piggyPennyWebView.setWebViewClient(new MyWebViewClient());
         piggyPennyWebView.getSettings().setJavaScriptEnabled(true);
-        piggyPennyWebView.loadUrl("http://www.csh.rit.edu/~henry/piggypennies/PiggyPennies/dashboard/index.php"); // load in url
+        piggyPennyWebView.loadUrl("http://piggy.aws-cloud.oweb.co/dashboard/index.php"); // load in url
 
     }
 
